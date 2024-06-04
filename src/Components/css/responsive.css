@@ -1,0 +1,23 @@
+*{
+  transition: all;
+  transition-duration: 0s;
+  transition-timing-function: ease-in-out;
+}
+.height, .height_box2{
+  height:85vh
+}
+
+.afterHeight{
+  height: 85vh;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .height {
+    height: 10vh;
+  }
+  .height_box2{
+    height: auto;
+  }
+}
