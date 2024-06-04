@@ -22,13 +22,13 @@ function Project() {
         {
           id: 1,
           name: "Akhbar News WebApp",
-          imgSrc: "public/02.png",
+          imgSrc: "/02.png",
           githubUrl: "https://github.com/mr21sanger/React_News_App",
         },
         {
           id: 2,
           name: "E-commerce React App",
-          imgSrc: "public/03.png",
+          imgSrc: "/03.png",
           githubUrl: "https://github.com/mr21sanger/akhbar.github.io",
         },
       ],

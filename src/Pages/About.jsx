@@ -41,7 +41,7 @@ function About() {
   const eduDetails = [
     {
       id: 0,
-      imgSrc: "public/satyug.png",
+      imgSrc: "/satyug.png",
       name: "Satyug Darshan Institute Of Engineering And Technology",
       education: "Bachelor's Degree, Computer Science",
       affilation: "Affilated to J.C. bose university of Science and Technology",
@@ -50,7 +50,7 @@ function About() {
     },
     {
       id: 1,
-      imgSrc: "public/arya.png",
+      imgSrc: "/arya.png",
       name: "Arya Vidya Mandir Sr. Sec. School",
       education: "12th (Non-Medical)",
       affilation: "Affilated to Central Board of Secondary Education (CBSE)",
@@ -59,7 +59,7 @@ function About() {
     },
     {
       id: 2,
-      imgSrc: "public/arya.png",
+      imgSrc: "/arya.png",
       name: "Arya Vidya Mandir Sr. Sec. School",
       education: "10th",
       affilation: "Affilated to Central Board of Secondary Education (CBSE)",
