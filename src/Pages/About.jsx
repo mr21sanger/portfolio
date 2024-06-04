@@ -3,9 +3,6 @@ import CertificateBlock from '../Components/CertificateBlock'
 import { certificateIcon, schoolIcon } from '../Components/icons'
 import EduCont from '../Components/EduCont'
 
-
-
-
 function About() {
 
 
@@ -71,13 +68,13 @@ function About() {
 
   return (
     <>
-      <div className='h-full w-full md:px-14  mx-auto overflow-hidden hover:overflow-y-auto scrollbar-hover '>
-        <p className='text-xl text-justify px-5 pt-5 font-sans leading-8 md:leading-10' >
+      <div className='h-full w-full md:px-14  mx-auto overflow-hidden  hover:md:overflow-y-auto scrollbar-hover '>
+        <p className='text-xl text-justify px-5 pt-5 font-sans leading-[1.5em] md:leading-[2.5vw]' >
           Hey there! I'm a 20 year Old,
           Eager and dynamic Computer Science student from Satyug Darshan Institute of
           Engineering and Technology, Faridabad, with a foundational understanding of React, HTML, Node.js, Python, and JavaScript. Proficient in web development and eager to leverage skills in a practical setting. Comfortable in English and Hindi, ready to contribute to innovative projects and continue professional development.
         </p>
-        <p className='text-xl text-justify p-5 font-sans leading-10 hidden md:block ' >
+        <p className='text-xl text-justify p-5 font-sans leading-[2.5vw] hidden md:block ' >
           I'm passionate about technology and always looking to learn something new. Whether it's through my coursework, or hands-on projects I'm always up for a challenge. I really enjoy exploring new technologies, working on personal projects.
         </p>
 

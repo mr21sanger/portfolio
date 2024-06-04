@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ImgContainer from './ImgContainer'
 import { FaLinkedin, FaGithub, FaLocationDot } from "react-icons/fa6";
 import { FaPhoneSquareAlt } from "react-icons/fa";
-
 import { SiGmail } from "react-icons/si";
 import "../Components/css/responsive.css"
 import { arrow } from './icons';
@@ -54,21 +53,20 @@ function Box() {
     }
   ]
 
-
   const handleClick = () => {
     setValue(!value)
   }
   return (
     <>
-      <div className={`md:my-0 mt-3 w-11/12 md:w-1/5 flex md:flex-col items-center md:justify-center md:p-0 mx-auto md:gap-0 rounded-lg bg-neutral-900 text-center 
+      <div className={`md:my-0 mt-3 w-[95vw] md:w-[20vw] flex md:flex-col items-center md:justify-center md:p-0 mx-auto md:gap-0 rounded-lg bg-neutral-900 text-center 
        transition-all duration-1000
-       ${value ? "afterHeight flex-col py-5 gap- " : "height gap-5 px-5 "}
+       ${value ? "afterHeight flex-col py-5 " : "height gap-5 px-5 "}
        `}>
         <ImgContainer value={value} />
 
         {/* NAME */}
         <div className='ml-2'>
-          <div className={` md:text-3xl md:py-2 text-gray-100
+          <div className={` md:text-[2rem] md:py-2 text-gray-100
           ${value ? "text-3xl mt-1" : "text-xl"}`}>
             Shiwang Sanger
           </div>
@@ -97,7 +95,7 @@ function Box() {
                   <a
                     href={currElem.profileUrl}
                     key={currElem.id}
-                    className='w-14 h-14 rounded-lg text-4xl drop-shadow-2xl border-2 border-black flex items-center justify-center'>
+                    className='w-14 h-14 rounded-lg text-[2rem] drop-shadow-2xl border-2 border-black flex items-center justify-center'>
                     {currElem?.icon}
                   </a>
                 )
@@ -106,7 +104,7 @@ function Box() {
           </div>
 
           {/* OTHER INFORMATION */}
-          <div className='w-full md:w-5/6 h-2/3  rounded-lg mx-auto md:border-4 border-black '>
+          <div className='w-full md:w-5/6 h-[29vh]  rounded-lg mx-auto md:border-4 border-black '>
             {
               otherInfo.map((currElem) => {
                 return (
@@ -115,7 +113,7 @@ function Box() {
                     key={currElem.id}
                     className='h-14 mt-2 rounded-md mx-auto w-11/12 flex hover:scale-105 border border-gray-400 drop-shadow-2xl hover:border-neutral-700 transition-all duration-150'>
                     <div
-                      className='bg-neutral-950 w-16 h-full text-3xl font-thin flex items-center justify-center rounded-l-lg'>
+                      className='bg-neutral-950 w-16 h-full text-[2rem] font-thin flex items-center justify-center rounded-l-lg'>
                       {currElem.icon}
                     </div>
                     <div

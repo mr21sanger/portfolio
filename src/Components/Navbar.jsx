@@ -37,7 +37,7 @@ function Navbar() {
   
   return (
     <>
-      <div className='w-11/12 z-50  md:w-full bg-black md:rounded-none rounded-2xl border-2 md:rounded-t-lg border-neutral-900 h-16 flex  items-center justify-evenly fixed md:static bottom-0 left-3.5'>
+      <div className='w-[95vw] z-50  md:w-full bg-black md:rounded-none rounded-2xl border-2 md:rounded-t-lg border-neutral-900 h-[9vh] md:h-[10vh] flex  items-center justify-evenly fixed md:static bottom-0.5 '>
         {
           options.map((currElem) => {
             return (
@@ -45,7 +45,7 @@ function Navbar() {
               to={currElem.to}
               key={currElem.id}
               className={({ isActive }) =>
-                `p-2 md:px-5 md:py-1.5 rounded-lg text-2xl md:text-xl flex gap-2 items-center justify-center ${
+                `p-2 md:px-5 md:py-1 rounded-lg text-2xl md:text-xl flex gap-2 items-center justify-center ${
                   isActive ? 'bg-white font-semibd text-black' : 'bg-neutral-900'
                 }`
               }
