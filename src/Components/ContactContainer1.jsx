@@ -60,7 +60,7 @@ function ContactContainer1() {
             <h1 className='text-3xl mb-4'>
               Download my Resume...
             </h1>
-            <a className={'bg-black p-3 rounded-lg hover:ring-1 ring-white'} href={"public/ShiwangSanger_Resume.pdf"} download={true}>
+            <a className={'bg-black p-3 rounded-lg hover:ring-1 ring-white'} href={"/ShiwangSanger_Resume.pdf"} download={true}>
               Download Resume
             </a>
           </div>
